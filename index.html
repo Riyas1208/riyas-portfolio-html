@@ -1,0 +1,182 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Muhammed Riyas — Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <!-- Font Awesome CDN -->
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+  />
+</head>
+<body>
+
+<!-- Navbar -->
+<header class="navbar">
+  <div class="nav-content container">
+    <div class="logo">Muhammed Riyas M.U</div>
+    <div class="navlinks">
+      <a href="#home"><i class="fas fa-home"></i> Home</a>
+      <a href="#about"><i class="fas fa-user"></i> About</a>
+      <a href="#projects"><i class="fas fa-folder-open"></i> Projects</a>
+      <a href="#skills"><i class="fas fa-tools"></i> Skills</a>
+      <a href="#contact"><i class="fas fa-phone"></i> Contact</a>
+    </div>
+    <button class="menu-toggle"><i class="fas fa-bars"></i></button>
+  </div>
+</header>
+
+<main class="container">
+
+  <!-- Hero -->
+  <section id="home" class="hero fade-in">
+    <img src="images/profile.jpg" alt="Muhammed Riyas" class="hero-img">
+    <h1>Hi, I’m <span class="accent">Muhammed Riyas M U</span> 👋</h1>
+    <p>Flutter Developer · MSc Computer Science Student · UI/UX & Mobile Dev</p>
+    <div class="hero-buttons">
+      <a href="#projects" class="btn btn-primary">
+        <i class="fas fa-eye"></i> View Projects
+      </a>
+      <a href="riyas_mu.pdf" class="btn btn-primary" download>
+        <i class="fas fa-file-download"></i> Download CV
+      </a>
+    </div>
+  </section>
+
+  <!-- About -->
+  <section id="about" class="section fade-in">
+    <h2>About Me</h2>
+    <p>I am a motivated Flutter developer and MSc Computer Science student at the University of Calicut.
+       I have experience building mobile apps with Flutter and worked as a Jr. Flutter Developer at ERE Business Solutions.
+       Currently focused on mobile development, UI/UX, and AI-based systems.</p>
+
+    <div class="grid grid-2">
+      <div class="card inner">
+        <h3>Education</h3>
+        <ul>
+          <li><strong>MSc Computer Science</strong> — University of Calicut <em>2024–present</em></li>
+          <li><strong>BSc Computer Science</strong> — Le-Ment College of Advanced Studies <em>2020–2023</em></li>
+        </ul>
+      </div>
+      <div class="card inner">
+        <h3>Experience</h3>
+        <ul>
+          <li><strong>Jr. Flutter Developer</strong> — ERE Business Solutions Pvt. Ltd <em>Dec 2023 – Mar 2024</em></li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects -->
+  <section id="projects" class="section fade-in">
+    <h2>Projects</h2>
+    <div class="grid">
+      <div class="card project">
+        <h3>Private Bus: Time & Route View System</h3>
+        <p>A mobile app to view private bus timings and routes with real-time info and intuitive UI.</p>
+        <div class="tags">
+          <span class="tag">Flutter</span><span class="tag">Realtime UI</span>
+        </div>
+      </div>
+      <div class="card project">
+        <h3>Weather App</h3>
+        <p>A Flutter-based weather app integrating OpenWeatherMap API.
+          <a href="https://github.com/Riyas1208/weather_app" target="_blank">GitHub</a></p>
+        <div class="tags">
+          <span class="tag">Flutter</span><span class="tag">API</span>
+        </div>
+      </div>
+      <div class="card project">
+        <h3>AI-Based Intrusion Detection System (Ongoing)</h3>
+        <p>Final year MSc project — AI-based IDS for SMEs focusing on anomaly detection.</p>
+        <div class="tags">
+          <span class="tag">AI</span><span class="tag">Security</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills -->
+  <section id="skills" class="section fade-in">
+    <h2>Skills & Certificates</h2>
+    <div class="grid grid-2">
+      <div class="card inner">
+        <h3>Technical Skills</h3>
+        <p class="tags">
+          <span class="tag">Flutter</span> <span class="tag">Dart</span>
+          <span class="tag">Android</span> <span class="tag">Java</span>
+          <span class="tag">Python</span> <span class="tag">HTML</span>
+          <span class="tag">CSS</span> <span class="tag">PHP</span>
+          <span class="tag">MySQL</span>
+        </p>
+      </div>
+      <div class="card inner">
+        <h3>Certificates</h3>
+        <ul>
+          <li>Introduction to Cybersecurity Tools & Cyber Attacks</li>
+          <li>Computer Hardware & Network</li>
+          <li>Training in Flutter</li>
+          <li>Python & Django</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+ <!-- Contact -->
+<section id="contact" class="section fade-in">
+  <h2>Get in Touch</h2>
+  <div class="contact-grid">
+    <div class="contact-info">
+      <div class="info-item">
+        <i class="fas fa-map-marker-alt"></i>
+        <span>Thrissur, Kerala, India — 680585</span>
+      </div>
+      <div class="info-item">
+        <i class="fas fa-envelope"></i>
+        <a href="mailto:riyasmu08@gmail.com">riyasmu08@gmail.com</a>
+      </div>
+      <div class="info-item">
+        <i class="fas fa-phone"></i>
+        <a href="tel:+919995412499">+91 9995412499</a>
+      </div>
+      <div class="info-item social-links">
+        <a href="https://github.com/Riyas1208" target="_blank"><i class="fab fa-github"></i></a>
+        <a href="https://www.linkedin.com/in/muhammed-riyas-mu-a08341192" target="_blank"><i class="fab fa-linkedin"></i></a>
+      </div>
+    </div>
+    <form class="contact-form">
+      <div class="form-group">
+        <input type="text" required placeholder=" " />
+        <label>Name</label>
+      </div>
+      <div class="form-group">
+        <input type="email" required placeholder=" " />
+        <label>Email</label>
+      </div>
+      <div class="form-group">
+        <textarea rows="4" required placeholder=" "></textarea>
+        <label>Message</label>
+      </div>
+      <button type="submit" class="btn btn-primary">Send Message</button>
+    </form>
+  </div>
+</section>
+
+<footer>
+  &copy; 2025 Muhammed Riyas. All Rights Reserved.
+</footer>
+
+<script>
+  const menuToggle = document.querySelector('.menu-toggle');
+  const navLinks = document.querySelector('.navlinks');
+
+  menuToggle.addEventListener('click', () => {
+    navLinks.classList.toggle('show');
+  });
+</script>
+
+</main>
+</body>
+</html>
